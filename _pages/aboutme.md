@@ -1,6 +1,5 @@
 ---
 permalink: /aboutme/
-author_profile: true
 defaults:
   # _pages
   - scope:
