@@ -6,7 +6,7 @@ author_profile: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  image: /assets/images/beach-cropped.jpg
+  overlay_image: /assets/images/beach-cropped.jpg
   cta_label: "About me"
   caption: "We are drowning in a sea of data, but starving for knowledge"
 ---
