@@ -43,11 +43,6 @@ author:
   bio: "I am currently a bioinformatics phd student at Virginia Tech. My research focuses on applying machine learning and data mining techniques in genomics"
   email: "alexsong@vt.edu"
   uri: "https://sites.google.com/vt.edu/qinomics"
-
-# Site header image
-header:
-  image: /assets/images/beach-cropped.jpg
-
   
 # Build settings
 markdown: kramdown
