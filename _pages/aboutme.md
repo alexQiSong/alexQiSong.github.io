@@ -1,6 +1,5 @@
 ---
 permalink: /aboutme/
-# page layout
 defaults:
   # _pages
   - scope:
@@ -9,7 +8,6 @@ defaults:
     values:
       layout: splash
       author_profile: true
-# page content
 feature_row:
   - image_path: assets/images/gbcb_logo1_cropped.jpg
     alt: "placeholder image 1"
