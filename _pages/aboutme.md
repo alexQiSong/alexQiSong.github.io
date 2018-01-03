@@ -1,6 +1,5 @@
 ---
 permalink: /aboutme/
-
 # page layout
 defaults:
   # _pages
