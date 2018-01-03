@@ -1,13 +1,13 @@
 main:
   - title: "About Me"
-    url: 
+    url: /index.md
   - title: "Posts"
-    url: 
+    url: /index.md
   - title: "Projects"
-    url: 
+    url: /index.md
   - title: "Publications"
-    url: 
+    url: /index.md
   - title: "Fun"
-    url:
+    url: /index.md
   - title: "Contact"
-    url: 
+    url: /index.md
