@@ -43,6 +43,9 @@ author:
   bio: "I am currently a bioinformatics phd student at Virginia Tech. My research focuses on applying machine learning and data mining techniques in genomics"
   email: "alexsong@vt.edu"
   uri: "https://sites.google.com/vt.edu/qinomics"
+
+# Make sure jekyll can see /_pages folder
+include: ["_pages"]
   
 # Build settings
 markdown: kramdown
