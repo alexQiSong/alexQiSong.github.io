@@ -1,5 +1,6 @@
 ---
 permalink: /aboutme/
+author_profile: true
 ---
 
 # Alex Qi Song's Experience
