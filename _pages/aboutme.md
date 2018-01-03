@@ -23,6 +23,6 @@ intro:
   - excerpt: "I am a Phd student enrolled in Genetics, Bioinformatics and Computational Biology (GBCB) program at Vriginia Tech."
 ---
 
-{% include feature_row id="intro" type="right" %}
+{% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
