@@ -9,5 +9,4 @@ header:
 excerpt: "We are drowning in a sea of data, but starving for knowledge"
 intro:
   -excerpt: "nothing to show here"
-`type="center"`'
 ---
