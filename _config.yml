@@ -15,15 +15,35 @@
 # in the templates via {{ site.myvariable }}.
 title: Qinomics
 email: alexsong@vt.edu
+name: Qi Song
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
+  This is my personal blog
+baseurl: "/minimal-mistakes" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+search: true
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
+# Site author
+author:
+  name: "Alex Qi Song"
+  avatar: "/assets/images/profile_pic.jpg"
+  bio: "I am currently bioinformatics phd student at Virginia Tech"
+  email: "alexsong@vt.edu"
+  uri: "http://alexqisong.com"
+  
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
