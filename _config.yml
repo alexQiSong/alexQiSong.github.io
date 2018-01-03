@@ -40,9 +40,9 @@ defaults:
 author:
   name: "Alex Qi Song"
   avatar: "/assets/images/profile_pic.jpg"
-  bio: "I am currently bioinformatics phd student at Virginia Tech"
+  bio: "I am currently a bioinformatics phd student at Virginia Tech. My research focuses on applying machine learning and data mining techniques in genomics"
   email: "alexsong@vt.edu"
-  uri: "http://alexqisong.com"
+  uri: "https://sites.google.com/vt.edu/qinomics"
   
 # Build settings
 markdown: kramdown
