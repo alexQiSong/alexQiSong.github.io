@@ -18,7 +18,7 @@ feature_row:
   - image_path: /assets/images/gbcb_logo3_cropped.jpg
     alt: "placeholder image 2"
     title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting.
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
   - image_path: /assets/images/sketching.jpg
     alt: "placeholder image 3"
     title: "Placeholder 3"
