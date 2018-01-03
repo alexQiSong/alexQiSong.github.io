@@ -6,7 +6,7 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: splash
+      layout: home
       author_profile: true
 feature_row:
   - image_path: assets/images/gbcb_logo1_cropped.jpg
