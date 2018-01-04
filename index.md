@@ -1,6 +1,8 @@
 ---
 layout: home
 author_profile: true
+lang: zh
+ref: index
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
