@@ -10,3 +10,7 @@ header:
 excerpt: "从数据之海中挖掘知识"
 ---
 
+## Welcome
+
+Click here to visit [English version of this site](/index)
+
