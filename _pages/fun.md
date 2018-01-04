@@ -10,4 +10,6 @@ defaults:
       layout: single
       author_profile: true
 ---
-This page will be updated soon. I promise.
+My awesome roomates and friends in the phd program!
+![](/assets/images/GBCB.jpg)
+This page will be updated with more pictures soon. I promise.
