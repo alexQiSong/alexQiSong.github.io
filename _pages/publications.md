@@ -7,7 +7,7 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: single
+      layout: splash
       author_profile: true
 ---
 **I will keep updating this list of publication if I do not perish from publishing**
