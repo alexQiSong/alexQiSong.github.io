@@ -28,7 +28,7 @@ In my spare time, I like to do a lot of things, including gym work out, sketchin
 
 ![](/assets/images/sketching.jpg)
 
-**A logo I desined for my phd program**
+**A logo I desinged for my phd program**
 
 ![](/assets/images/gbcb_logo1_cropped.jpg)
 
