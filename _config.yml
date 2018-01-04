@@ -22,13 +22,17 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  alexQiSong
 search: true
+
 # Site author
 author:
   name: "Alex Qi Song"
   avatar: "/assets/images/profile_pic.jpg"
   bio: "I am currently a bioinformatics phd student at Virginia Tech. My research focuses on applying machine learning and data mining techniques in genomics"
+  location: "Blacksburg, VA"
+  github: alexQiSong
+  facebook: qi.song.925
   email: "alexsong@vt.edu"
   uri: "https://sites.google.com/vt.edu/qinomics"
 
