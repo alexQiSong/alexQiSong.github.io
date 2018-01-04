@@ -1,5 +1,6 @@
 ---
 permalink: /fun/
+title: "Fun"
 defaults:
   # _pages
   - scope:
