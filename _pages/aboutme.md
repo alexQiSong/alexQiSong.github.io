@@ -7,7 +7,7 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: splash
+      layout: archive
       author_profile: true
 ---
 ## So what is Qinomics?
