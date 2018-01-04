@@ -24,7 +24,9 @@ feature_row:
     excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it, whatever!"
 ---
 ## So what is Qinomics?
-Qinomics is the personal website for Alex Qi Song. His research focuses on developing computational tools to study genomic and transcriptomic data. Therefore you might consider Qinomics as Qi's genomic study (Please tell him if you have other interpretation for the name. :-)). Qinomics is pronouced as Chee-nomics. Qi is derived from Chinese word qi lin (麒麟), which represents the mythical creature in ancient Chinese mythology. 
+Qinomics is the personal website for Alex Qi Song. His research focuses on developing computational tools to study genomic and transcriptomic data. Therefore you might consider Qinomics as Qi's genomic study (Please tell him if you have other interpretation for the name. :-)). Qinomics is pronouced as Chee-nomics. My first name 'Qi' is derived from Chinese word Qilin (麒麟), which represents the mythical creature in ancient Chinese mythology. 
+
+![A Qilin](/assets/images/qilin.jpg)
 
 ## Alex Qi Song's Experience
 I am currently a Phd student enrolled in GBCB (Genetics, Bioinformatics and Compuational Biology) program at Virginia Tech. I work as graduate research assistant in Dr. Song Li's lab. My research focuses on applying machine learning and data mining in the study of transcriptional regulation for plant species.  
