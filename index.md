@@ -10,11 +10,5 @@ header:
   cta_url: "https://github.com/alexQiSong"
 excerpt: "We are drowning in a sea of data, but starving for knowledge"
 ---
-<div class="switcher">
-  <ul style="list-style: none;>
-    <li>
-      <a href="/index-ch" class="zh">中文</a>
-    </li>
-  </ul>
-</div>
+[中文](/index-ch/)
 
