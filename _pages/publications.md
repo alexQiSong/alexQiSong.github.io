@@ -8,7 +8,7 @@ defaults:
       type: pages
     values:
       layout: splash
-      author_profile: true
+      author_profile: false
 ---
 **I will keep updating this list of publication if I do not perish from publishing**
 
