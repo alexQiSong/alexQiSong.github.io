@@ -1,6 +1,7 @@
 ---
 layout: single
 author_profile: true
+comments: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
@@ -10,9 +11,9 @@ header:
 excerpt: "We are drowning in a sea of data, but starving for knowledge"
 ---
 <div class="switcher">
-  <ul>
+  <ul style="list-style: none;>
     <li>
-      <a href="/index-ch.md" class="zh">中文</a>
+      <a href="/index-ch" class="zh">中文</a>
     </li>
   </ul>
 </div>
