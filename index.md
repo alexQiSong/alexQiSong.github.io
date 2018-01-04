@@ -10,5 +10,11 @@ header:
   cta_url: "https://github.com/alexQiSong"
 excerpt: "We are drowning in a sea of data, but starving for knowledge"
 ---
-[中文](/index-ch/)
+## Welcome
+
+Welcome to Qinomics, personal website for Alex Qi Song
+
+## 欢迎
+
+欢迎访问我的个人网站,请点此链接访问[中文版](/index-ch)
 
