@@ -33,6 +33,14 @@ author:
 
 # Make sure jekyll can see /_pages folder
 include: ["_pages"]
+
+# staticman settings (comments section)
+# _config.yml (defaults)
+repository  :  alexQiSong/alexQiSong.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+comments:
+  provider  : "staticman_v2"
+staticman:
+  branch    : "master"
   
 # Build settings
 markdown: kramdown
