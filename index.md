@@ -1,5 +1,6 @@
 ---
 layout: single
+title: Qinomics
 author_profile: true
 comments: false
 share: false
