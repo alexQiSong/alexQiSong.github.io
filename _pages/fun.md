@@ -9,3 +9,4 @@ defaults:
       layout: single
       author_profile: true
 ---
+This page will be updated soon. I promise.
