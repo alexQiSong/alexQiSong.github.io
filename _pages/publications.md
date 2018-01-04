@@ -1,6 +1,7 @@
 ---
 permalink: /publications/
 title: "Publications"
+layout: splash
 defaults:
   # _pages
   - scope:
