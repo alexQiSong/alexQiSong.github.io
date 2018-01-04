@@ -1,5 +1,6 @@
 ---
 permalink: /publications/
+title: "Publications"
 defaults:
   # _pages
   - scope:
