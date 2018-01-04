@@ -24,9 +24,11 @@ Before joining the college, I completed my high school at The Senior School Of N
 ## Alex Qi Song's Hobby
 In my spare time, I like to do a lot of things, including gym work out, sketching, graphic design, coding, playing video games, cooking whatever I can cook ... I made a logo for my phd program for fun, albeit not an official one. ;-P
 
-Sketching I made last year
+A sketching I made last year
+
 ![](/assets/images/sketching.jpg)
 
 A logo I desined for my phd program
+
 ![](/assets/images/gbcb_logo1_cropped.jpg)
 
