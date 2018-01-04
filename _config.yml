@@ -1,3 +1,4 @@
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -41,6 +42,14 @@ comments:
   provider  : "staticman_v2"
 staticman:
   branch    : "master"
+
+# Social sharing setting
+twitter:
+  username               :
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
   
 # Build settings
 markdown: kramdown
