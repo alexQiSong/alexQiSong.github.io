@@ -1,5 +1,6 @@
 ---
 layout: single
+locale: zh
 title: Qinomics
 author_profile: true
 comments: false
