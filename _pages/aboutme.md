@@ -1,7 +1,14 @@
 ---
 permalink: /aboutme/
 title: "About me"
-author_profile: true
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 ---
 
 ## Alex Qi Song's Experience
