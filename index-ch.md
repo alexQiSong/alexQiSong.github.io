@@ -1,7 +1,9 @@
 ---
-layout: home
+layout: single
 title: Qinomics
 author_profile: true
+comments: false
+share: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
