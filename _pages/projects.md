@@ -1,5 +1,6 @@
 ---
 permalink: /projects/
+title: "Projects"
 defaults:
   # _pages
   - scope:
