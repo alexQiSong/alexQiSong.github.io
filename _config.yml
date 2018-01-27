@@ -77,7 +77,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts pages
+      type: posts
     values:
       layout: single
       author_profile: true
