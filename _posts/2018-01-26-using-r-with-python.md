@@ -1,8 +1,11 @@
 ---
-permalink: /using-r-with-python/
 title: "Using R with Python"
-layout: single
-author_profile: true
+categories:
+  - Programming
+tags:
+  - R
+  - Python
+  - rpy2
 ---
 Oftentimes, I have to use some R packages within my Python pipeline because there are no Python alternatives. Calling suprocess module and execute R script in Shell is a nice solution but I thought this can be done more elegantly. A simple Google search led me to the introduction page of [rpy2](https://rpy2.readthedocs.io/en/version_2.8.x/).
 
