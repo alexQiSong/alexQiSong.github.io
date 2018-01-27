@@ -22,7 +22,7 @@ comments:
 
   # not here is part of the request, an error will be thrown.
 
-  allowedFields: ["name", "url", "message"]
+  allowedFields: ["name", "message"]
 
 
 
