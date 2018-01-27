@@ -9,7 +9,7 @@ tags:
 ---
 Oftentimes, I have to use some R packages within my Python pipeline because there are no alternatives in Python. Calling suprocess module and executing R script in Shell is a nice solution but this can be done more elegantly. A simple Google search led me to the introduction page of [rpy2](https://rpy2.readthedocs.io/en/version_2.8.x/).
 
-Calling R functions directly inside Python may sound like some fancy tricks but rpy2 just made it as simple as possible! One cool feature is that you can even use Pandas DataFrame to directly interact with R functions. As I am heavily dependent on Pandas DataFrame to perform routine analysis, this nice feature does make a lot sense for me :heart_eyes:. 
+Calling R functions directly inside Python may sound like some fancy tricks but rpy2 just made it as simple as possible! One cool feature is that you can even use Pandas DataFrame to directly interact with R functions. As I am heavily dependent on Pandas DataFrame to perform routine analysis, this nice feature does make a lot sense for me. 
 
 For my case, I need to use bioconductor package 'ChIPseeker' in my Python pipeline. After walking through the doc, I finally ended up writing the code below to run ChIPseeker in my Python script. This script uses ChIPseeker to identify nearest genes for the given genomic regions which are stored in a Pandas DataFrame named `peakTab`. `gffFileName` is the GFF format genome annotation passed from some other functions. importr returns an instance of R library which has its own namespace hosting all the functions from that library. So you can effortlessly call any R function from any R package using `name.function()`. `name` is the alias for the R package name and `function` is the function name. 
 
