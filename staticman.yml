@@ -13,5 +13,3 @@ comments:
   moderation         : true
   path               : "/_data/comments/{options.slug}" (default)
   requiredFields     : ["name", "message"]
-  transforms:
-    email            : md5
