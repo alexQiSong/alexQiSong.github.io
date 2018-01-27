@@ -11,7 +11,7 @@ Oftentimes, I have to use some R packages within my Python pipeline because ther
 
 Calling R functions directly inside Python may sound like some fancy tricks but rpy2 just made it as simple as possible! One cool feature is that you can even use Pandas DataFrame to directly interact with R functions. As I am heavily dependent on Pandas DataFrame to perform routine analysis, this nice feature does make a lot sense for me :-)!. 
 
-For my case, I need to use bioconductor package 'ChIPseeker' in my Python pipeline. I finally ended up writing the following code to run ChIPseeker in my Python script. This script uses ChIPseeker to identify the nearest genes for the given genomic regions which are stored in a Pandas DataFrame `peakTab`. `gffFileName` is the GFF format genome annotation passed from some other functions.
+For my case, I need to use bioconductor package 'ChIPseeker' in my Python pipeline. I finally ended up writing the code below to run ChIPseeker in my Python script. This script uses ChIPseeker to identify the nearest genes for the given genomic regions which are stored in a Pandas DataFrame `peakTab`. `gffFileName` is the GFF format genome annotation passed from some other functions.
 
 ```python
 from rpy2.robjects import pandas2ri
