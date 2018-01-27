@@ -1,5 +1,5 @@
 ---
-title: "Using R with Python"
+title: "Using biocondutor R package in Python"
 categories:
   - Programming
 tags:
@@ -38,7 +38,7 @@ pandas2ri.activate()
 txdb = GF.makeTxDbFromGFF(gffFileName)
 
 '''
-Find the nearest genes for all genomic regions stored in peakTab.
+Generate GRranges object from genomic regions stored in peakTab
 chrStart is the start position and chrEnd is the end position.
 Note that peakTab is a Pandas DataFrame but you can directly use
 this in R function GR.GRanges
@@ -50,8 +50,11 @@ peaks = GR.GRanges(
       #weight = peakTab['weight'],
       TFID = peakTab['TFID']
     )
-    
+
+# Find nearst genes using annotatePeak() in ChIPseeker package
 annoPeakTab = pandas2ri.ri2py(base.as_data_frame(meth.slot(CSK.annotatePeak(peaks,TxDb = txdb),"anno")))
+
+# Filter genes by distance. Only genes within 500 bps upstream and 3000 bps downstream are kept
 index = (annoPeakTab['distanceToTSS'] > -3000) & (annoPeakTab['distanceToTSS'] <= 500)
 re = annoPeakTab.loc[index,('TFID','geneId')]
 ```
