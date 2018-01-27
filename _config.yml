@@ -44,6 +44,8 @@ include: ["_pages"]
 repository  :  alexQiSong/alexQiSong.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 comments:
   provider  : "staticman_v2"
+staticman:
+  branch    : "master"
 
 # Social sharing setting
 twitter:
