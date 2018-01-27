@@ -7,11 +7,11 @@ tags:
   - Python
   - rpy2
 ---
-Oftentimes, I have to use some R packages within my Python pipeline because there are no Python alternatives. Calling suprocess module and execute R script in Shell is a nice solution but I thought this can be done more elegantly. A simple Google search led me to the introduction page of [rpy2](https://rpy2.readthedocs.io/en/version_2.8.x/).
+Oftentimes, I have to use some R packages within my Python pipeline because there are no alternatives in Python. Calling suprocess module and executing R script in Shell is a nice solution but this can be done more elegantly. A simple Google search led me to the introduction page of [rpy2](https://rpy2.readthedocs.io/en/version_2.8.x/).
 
-Calling R functions directly inside Python may sound like some fancy tricks but rpy2 just made it as simple as possible! One cool feature is that you can even use Pandas DataFrame to directly interact with R functions. As I am heavily dependent on Pandas DataFrame to perform routine analysis, this nice feature does make a lot sense for me :-)!. 
+Calling R functions directly inside Python may sound like some fancy tricks but rpy2 just made it as simple as possible! One cool feature is that you can even use Pandas DataFrame to directly interact with R functions. As I am heavily dependent on Pandas DataFrame to perform routine analysis, this nice feature does make a lot sense for me :heart_eyes:. 
 
-For my case, I need to use bioconductor package 'ChIPseeker' in my Python pipeline. I finally ended up writing the code below to run ChIPseeker in my Python script. This script uses ChIPseeker to identify the nearest genes for the given genomic regions which are stored in a Pandas DataFrame `peakTab`. `gffFileName` is the GFF format genome annotation passed from some other functions.
+For my case, I need to use bioconductor package 'ChIPseeker' in my Python pipeline. After walking through the doc, I finally ended up writing the code below to run ChIPseeker in my Python script. This script uses ChIPseeker to identify nearest genes for the given genomic regions which are stored in a Pandas DataFrame named `peakTab`. `gffFileName` is the GFF format genome annotation passed from some other functions. importr returns an instance of R library which has its own namespace hosting all the functions from that library. So you can effortlessly call any R function from any R package using `name.function()`. `name` is the alias for the R package name and `function` is the function name. 
 
 ```python
 from rpy2.robjects import pandas2ri
@@ -28,7 +28,10 @@ S4V = importr('S4Vectors')
 CSK = importr('ChIPseeker')
 meth = importr('methods')
 
-# Enable interaction between Pandas DataFrame and R functions
+'''
+Enable interaction between Pandas DataFrame and R functions
+You can use it just like an R data frame.
+'''
 pandas2ri.activate() 
 
 # Create txdb object from GFF file
@@ -52,4 +55,4 @@ annoPeakTab = pandas2ri.ri2py(base.as_data_frame(meth.slot(CSK.annotatePeak(peak
 index = (annoPeakTab['distanceToTSS'] > -3000) & (annoPeakTab['distanceToTSS'] <= 500)
 re = annoPeakTab.loc[index,('TFID','geneId')]
 ```
-One thing I still could not figure out is how to suppress the standard output from R function. The standard output generated from R function seems ugly in Python, I will think of a way to get rid of it.   
+One thing I am still struggling with is how to suppress the standard output from R function. The standard output generated from R function looks ugly in Python, I will think of a way to get rid of it.   
