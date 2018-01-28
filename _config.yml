@@ -29,7 +29,7 @@ search: true
 author:
   name: "Alex Qi Song"
   avatar: "/assets/images/profile_pic.jpg"
-  bio: "I am currently a bioinformatics phd student at Virginia Tech. My research focuses on applying machine learning and data mining techniques in genomics"
+  bio: "I am currently a bioinformatics phd student at Virginia Tech. My research focuses on applying machine learning and data mining techniques in genomic data"
   location: "Blacksburg, VA"
   github: alexQiSong
   facebook: qi.song.925
