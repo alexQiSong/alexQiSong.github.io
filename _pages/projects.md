@@ -12,6 +12,7 @@ defaults:
 ---
 ## ConSReg
 
+![](/assets/images/consreg_flowchart.png)
 **ConSReg** stands for "**Con**dition **S**pecific **Reg**ulatory network inference engine". ConSReg was designed to infer gene regulations using integrated heterogeneous genomic data (DAP-seq, ATAC-seq and single cell/bulk RNA-seq). ConSReg prioritizes key regulatory genes by using machine learning based regularization and stability selection (currently under review).
 
 ## CoReg
